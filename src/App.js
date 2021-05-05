@@ -1,19 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
+import NavTabs from "./components/NavTabs";
+import Home from "./components/pages/Home";
+import Contact from "./components/pages/Contact";
+import Portfolio from "./components/pages/Portfolio";
 
 
 function App() {
   return (
     <Router>
-      <Home></Home>
-      <Contact></Contact>
-      <Portfolio></Portfolio>
-
-    </Router>
+    <div>
+      <NavTabs />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/portfolio" component={Portfolio} />
+      <Route path="/contact" component={Contact} />
+    </div>
+  </Router>
   );
 }
 
