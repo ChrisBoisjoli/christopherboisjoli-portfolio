@@ -2,25 +2,25 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      <h1 class="contactHeader">
+      <h1 className="contactHeader">
         You must really want to chat! Reach me here:
       </h1>
-      <div class=" container">
-        <div class="row">
-          <div class="reach col-md-4">
-            <div class=" card">
-              <div class="animate__animated animate__flipInX card-body">
-                <h5 class="card-title"></h5>
-                <h6 class="card-muted mb-2 text-muted"></h6>
-                <p class="card-text"></p>
+      <div className=" container">
+        <div className="row">
+          <div className="reach col-md-4">
+            <div className=" card">
+              <div className="animate__animated animate__flipInX card-body">
+                <h5 className="card-title"></h5>
+                <h6 className="card-muted mb-2 text-muted"></h6>
+                <p className="card-text"></p>
                 <a href="mailto:christopherboisjoli@gmail.com">
-                  <i class="contact fas fa-envelope-square fa-3x"></i>
+                  <i className="contact fas fa-envelope-square fa-3x"></i>
                 </a>
                 <a href="tel:612-460-0187">
-                  <i class="contact fas fa-phone fa-3x"></i>
+                  <i className="contact fas fa-phone fa-3x"></i>
                 </a>
                 <a href="https://twitter.com/Chris_Boisjoli_" target="_blank">
-                  <i class="contact fab fa-twitter fa-3x"></i>
+                  <i className="contact fab fa-twitter fa-3x"></i>
                 </a>
               </div>
             </div>
