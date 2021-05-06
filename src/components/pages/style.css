@@ -1,0 +1,67 @@
+body {
+    background-color: gray;
+    background-image: url("./images/background.jpeg");
+    background-color: white;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .page {
+    color: azure;
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+  }
+  header {
+    font-size: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: "Train One", cursive;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .headshot {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .card {
+    align-items: center;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 60px;
+    padding: 20px;
+  }
+  .contact {
+    padding: 5px;
+    align-items: center;
+    color: gray;
+  }
+  .contactHeader {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+  }
+  .live {
+    color: gray;
+  }
+  .call {
+    float: none;
+  }
+  .card-title {
+    font-family: "Roboto Mono", monospace;
+  }
+  .card-text {
+    font-family: "Roboto Mono", monospace;
+  }
+  .reach{
+      margin: 0 auto;
+    float: none;
+    margin-bottom: 60px;
+  }
