@@ -1,11 +1,13 @@
 import React from "react";
+import Headshot from "./images/headshot.jpg";
+import "./style.css";
 function Home() {
   return (
     <div className="container">
       <div className="row">
         <div className="card col-md-8 animate__animated animate__backInDown">
           <img
-            src="./assets/headshot.jpg"
+            src={Headshot}
             className="card-img-top headshot"
             alt="Photo of developer Chris Boisjoli"
           />
