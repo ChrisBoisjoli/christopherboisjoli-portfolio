@@ -6,6 +6,7 @@ import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route path="/contact" component={Contact} />
+      <Footer/>
     </div>
   </Router>
   );
