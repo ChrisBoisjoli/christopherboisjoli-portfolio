@@ -1,5 +1,6 @@
 import React from "react";
 import Headshot from "./images/headshot.jpg";
+import Resume from "../pages/assets/resume.pdf";
 import "./style.css";
 function Home() {
   return (
@@ -14,24 +15,25 @@ function Home() {
           <div className="card-body">
             <h5 className="card-title">About Me</h5>
             <a href="https://github.com/ChrisBoisjoli" target="_blank">
+              Github
               <i className="contact fab fa-github fa-2x"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/chris-boisjoli-b13193200/"
               target="_blank"
-            >
+            >Linkedin
               <i className="contact fab fa-linkedin fa-2x"></i>
             </a>
-            <a href="mailto:christopherboisjoli@gmail.com">
+            <a href="mailto:christopherboisjoli@gmail.com">Email
               <i className="contact fas fa-envelope-square fa-2x"></i>
             </a>
-            <a href="tel:612-460-0187">
+            <a href="tel:612-460-0187">Phone
               <i className="contact fas fa-phone fa-2x"></i>
             </a>
             <a
-              href="./assets/Christopher_Boisjoli_Resume2_11.pdf"
+              href={Resume}
               target="_blank"
-            >
+            >Resume
               <i className="contact fas fa-file fa-2x"></i>
             </a>
             <p className="card-text">
