@@ -5,6 +5,7 @@ import Backroom from "../pages/images/backroom.png";
 import Readmegen from "../pages/images/readmegen.png";
 import Profilegenerator from "../pages/images/teamprofile.png";
 import Dailyrecreational from "../pages/images/dailyrecreational.png";
+import Budgettracker from "../pages/images/budgettracker.png";
 function Portfolio() {
   return (
     <div className="container">
@@ -50,6 +51,27 @@ function Portfolio() {
             <p className="card-text">
               This is the first project that I worked on. I was responsible for
               many of the front-end layout.
+            </p>
+          </div>
+        </div>
+        <div className="animate__animated animate__lightSpeedInRight card col-md-3">
+          <img src={Budgettracker} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Budget Tracker</h5>
+            <a
+              href="https://github.com/ChrisBoisjoli/budget_tracker"
+              target="_blank"
+            >Github Repo
+              <i className="live fab fa-github fa-3x"></i>
+            </a><br></br>
+            <a
+              href="https://cb-budget-tracker.herokuapp.com/"
+              target="_blank"
+            >Deployed site
+              <i className="live fab fa-github fa-3x"></i>
+            </a>
+            <p className="card-text">
+              This project is a Progressive Web Application that a user can use to track their finances while traveling even if they don't have service.
             </p>
           </div>
         </div>
