@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/christopherboisjoli-portfolio/static/css/main.fe8ecb8b.chunk.css",
+    "main.js": "/christopherboisjoli-portfolio/static/js/main.8a5d8594.chunk.js",
+    "main.js.map": "/christopherboisjoli-portfolio/static/js/main.8a5d8594.chunk.js.map",
+    "runtime-main.js": "/christopherboisjoli-portfolio/static/js/runtime-main.2dcb2c61.js",
+    "runtime-main.js.map": "/christopherboisjoli-portfolio/static/js/runtime-main.2dcb2c61.js.map",
+    "static/css/2.150d169a.chunk.css": "/christopherboisjoli-portfolio/static/css/2.150d169a.chunk.css",
+    "static/js/2.77addb6b.chunk.js": "/christopherboisjoli-portfolio/static/js/2.77addb6b.chunk.js",
+    "static/js/2.77addb6b.chunk.js.map": "/christopherboisjoli-portfolio/static/js/2.77addb6b.chunk.js.map",
+    "index.html": "/christopherboisjoli-portfolio/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/christopherboisjoli-portfolio/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.fe8ecb8b.chunk.css.map": "/christopherboisjoli-portfolio/static/css/main.fe8ecb8b.chunk.css.map",
+    "static/js/2.77addb6b.chunk.js.LICENSE.txt": "/christopherboisjoli-portfolio/static/js/2.77addb6b.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/christopherboisjoli-portfolio/static/media/background.9f297022.jpeg",
+    "static/media/backroom.6e9caece.png": "/christopherboisjoli-portfolio/static/media/backroom.6e9caece.png",
+    "static/media/budgettracker.b30fefcd.png": "/christopherboisjoli-portfolio/static/media/budgettracker.b30fefcd.png",
+    "static/media/dailyrecreational.ed0ca469.png": "/christopherboisjoli-portfolio/static/media/dailyrecreational.ed0ca469.png",
+    "static/media/headshot.f794cfe9.jpg": "/christopherboisjoli-portfolio/static/media/headshot.f794cfe9.jpg",
+    "static/media/readmegen.4ffe7159.png": "/christopherboisjoli-portfolio/static/media/readmegen.4ffe7159.png",
+    "static/media/reel2real.047018fa.png": "/christopherboisjoli-portfolio/static/media/reel2real.047018fa.png",
+    "static/media/resume.48cf9dd0.pdf": "/christopherboisjoli-portfolio/static/media/resume.48cf9dd0.pdf",
+    "static/media/teamprofile.2dc6a9cd.png": "/christopherboisjoli-portfolio/static/media/teamprofile.2dc6a9cd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2dcb2c61.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.77addb6b.chunk.js",
+    "static/css/main.fe8ecb8b.chunk.css",
+    "static/js/main.8a5d8594.chunk.js"
+  ]
+}
