@@ -5,12 +5,15 @@ import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
+import Header from "./components/header/Header";
 
 
 function App() {
   return (
+    
     <Router>
     <div>
+    < Header />
       <NavTabs />
       <Route exact path="/" component={Home} />
       <Route exact path="/portfolio" component={Portfolio} />
