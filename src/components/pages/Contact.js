@@ -14,13 +14,13 @@ function Contact() {
                 <h5 className="card-title"></h5>
                 <h6 className="card-muted mb-2 text-muted"></h6>
                 <p className="card-text"></p>
-                <a href="mailto:christopherboisjoli@gmail.com">
+                <a href="mailto:christopherboisjoli@gmail.com">Email
                   <i className="contact fas fa-envelope-square fa-3x"></i>
                 </a>
-                <a href="tel:612-460-0187">
+                <a href="tel:612-460-0187">Phone
                   <i className="contact fas fa-phone fa-3x"></i>
                 </a>
-                <a href="https://twitter.com/Chris_Boisjoli_" target="_blank">
+                <a href="https://twitter.com/Chris_Boisjoli_" target="_blank">Twitter
                   <i className="contact fab fa-twitter fa-3x"></i>
                 </a>
               </div>
