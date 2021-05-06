@@ -1,16 +1,27 @@
 import React from "react";
+import "./style.css";
+import Reel2Real from "../pages/images/reel2real.png";
+import Backroom from "../pages/images/backroom.png";
+import Readmegen from "../pages/images/readmegen.png";
+import Profilegenerator from "../pages/images/teamprofile.png";
 function Portfolio() {
   return (
     <div className="container">
       <div className="row">
         <div className="animate__animated animate__lightSpeedInRight card col-md-3">
-          <img src="./assets/reel2real.png" className="card-img-top" alt="..." />
+          <img src={Reel2Real} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">Reel2Real</h5>
             <a
               href="https://github.com/ChrisBoisjoli/reel2real"
               target="_blank"
-            >
+            >Github Repo
+              <i className="live fab fa-github fa-3x"></i>
+            </a><br></br>
+            <a
+              href="https://reel2real.herokuapp.com/"
+              target="_blank"
+            >Deployed site
               <i className="live fab fa-github fa-3x"></i>
             </a>
             <p className="card-text">
@@ -20,10 +31,10 @@ function Portfolio() {
           </div>
         </div>
         <div className="animate__animated animate__lightSpeedInRight card col-md-3">
-          <img src="./assets/backroom.png" className="card-img-top" alt="..." />
+          <img src={Backroom} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">Backroom</h5>
-            <a href="https://github.com/ChrisBoisjoli/Backroom" target="_blank">
+            <a href="https://github.com/ChrisBoisjoli/Backroom" target="_blank">Github Repo
               <i className="live fab fa-github fa-3x"></i>
             </a>
             <p className="card-text">
@@ -33,13 +44,13 @@ function Portfolio() {
           </div>
         </div>
         <div className="animate__animated animate__lightSpeedInRight card col-md-3">
-          <img src="./assets/teamprofile.png" className="card-img-top" alt="..." />
+          <img src={Profilegenerator} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">Profie Generator</h5>
+            <h5 className="card-title">Profile Generator</h5>
             <a
               href="https://github.com/ChrisBoisjoli/Team_Profile_Generator"
               target="_blank"
-            >
+            >Github Repo
               <i className="live fab fa-github fa-3x"></i>
             </a>
             <p className="card-text">
@@ -49,13 +60,13 @@ function Portfolio() {
           </div>
         </div>
         <div className="animate__animated animate__lightSpeedInRight card col-md-3">
-          <img src="./assets/readmegen.png" className="card-img-top" alt="..." />
+          <img src={Readmegen} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">Readme Generator</h5>
             <a
               href="https://github.com/ChrisBoisjoli/README_Generator"
               target="_blank"
-            >
+            >Github Repo
               <i className="live fab fa-github fa-3x"></i>
             </a>
             <p className="card-text">
