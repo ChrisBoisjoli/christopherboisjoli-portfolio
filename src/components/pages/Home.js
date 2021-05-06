@@ -35,7 +35,7 @@ function Home() {
             <p className="card-text">
               Hi! My name is Chris Boisjoli and I am in the UMN Coding Bootcamp
               learning the MERN stack. So far in the course we have learned
-              HTML, CSS, JavaScript, Node, Express, MySQL and I am very excited
+              HTML, CSS, JavaScript, Node, Express, MySQL, React, and I am very excited
               to learn more. I am 35 years old and have been married to my wife
               Christine for 13 years. We live in Minneapolis with our dog
               Dottie. I am originally from Duluth MN and graduated with a degree
